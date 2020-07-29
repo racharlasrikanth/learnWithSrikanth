@@ -1,0 +1,35 @@
+.movies-section-1 {
+  padding-top: 5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  height: 70vh;
+}
+.movies-section-2 {
+  padding-top: 5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  height: 70vh;
+}
+.card:hover {
+  border: salmon solid 4px;
+}
+.movies-section-3 {
+  padding-top: 5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  height: 70vh;
+}
+.movies-section-4 {
+  padding-top: 5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  height: 70vh;
+}

@@ -1,0 +1,116 @@
+.full-signup {
+  margin-left: 30%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  width: 41%;
+  /* background: red; */
+}
+.signup-heading {
+  margin-top: none;
+  padding-left: none;
+  font-size: 43px;
+  color: black;
+}
+.signup-heading:hover {
+  color: black;
+}
+.quick {
+  padding-top: 2%;
+  padding-bottom: 3%;
+  font-size: 20px;
+  color: gray;
+}
+.first-name {
+  width: 197px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 18px;
+  padding-left: 5px;
+  color: black;
+  /* border-radius: 7px; */
+  /* border: none; */
+  /* background-color: white; */
+}
+.last-name {
+  width: 198px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 5px;
+  color: black;
+}
+.use-name {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 5px;
+  color: black;
+}
+.gmail {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 5px;
+  color: black;
+}
+.pass-word {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 5px;
+  color: black;
+}
+.conf-pass-word {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: black;
+  padding-left: 5px;
+}
+.gender {
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+}
+.button-signup {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 7px;
+  width: 410px;
+  height: 40px;
+  cursor: pointer;
+  padding-left: 5px;
+  background-color: blue;
+  border: blue solid 1px;
+  margin-bottom: 0px;
+}
+.button-signup:hover {
+  /* background-color: rgb(255, 120, 0); */
+  background: rgb(14, 1, 148);
+}
+.agree {
+  width: fit-content;
+  padding-left: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 16px;
+  color: gray;
+}
+.gender-heading {
+  color: gray;
+  margin: auto;
+  font-size: 20px;
+}
+ul li {
+  padding-right: 17px;
+}
+.radio-display {
+  color: black;
+}

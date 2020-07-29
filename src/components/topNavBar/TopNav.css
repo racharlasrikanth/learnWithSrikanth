@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Bree Serif", serif;
+}
+
+h2 {
+  padding-top: 1%;
+  padding-bottom: 0.7%;
+  letter-spacing: 5px;
+  text-align: center;
+  color: rgb(0, 204, 255);
+  background-color: #20252a;
+}
+h2:hover {
+  color: greenyellow;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #20232a;
+}
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 25px;
+  text-decoration-style: none;
+}
+h4:hover {
+  cursor: pointer;
+  color: rgb(255, 102, 0);
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  /* color: white; */
+  text-decoration: none;
+  letter-spacing: 1px;
+  /* font-weight: bold; */
+  font-size: 17px;
+}
+
+.nav-links a:hover {
+  color: rgb(255, 102, 0);
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #20232a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transition: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
